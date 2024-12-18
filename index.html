@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Insurance, Loans & Real Estate Agency</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-roboto">
+
+    <!-- Header Section -->
+    <header class="bg-blue-900 text-white py-6 text-center">
+        <h1 class="text-4xl font-poppins font-semibold">Your Trusted Insurance, Loans & Real Estate Advisor</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-blue-800">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+            <!-- Logo or Brand Name -->
+            <div class="text-white text-2xl font-semibold">
+                <a href="#">Ashok</a>
+            </div>
+
+            <!-- Hamburger Icon (for mobile) -->
+            <div class="block lg:hidden">
+                <button id="hamburger" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Menu Links -->
+            <div class="hidden lg:flex space-x-6">
+                <a href="#home" class="text-white px-4 py-2 text-lg font-medium hover:bg-blue-600 rounded">Home</a>
+                <a href="#insurance"
+                    class="text-white px-4 py-2 text-lg font-medium hover:bg-blue-600 rounded">Insurance</a>
+                <a href="#loans" class="text-white px-4 py-2 text-lg font-medium hover:bg-blue-600 rounded">Loans</a>
+                <a href="#real-estate" class="text-white px-4 py-2 text-lg font-medium hover:bg-blue-600 rounded">Real
+                    Estate</a>
+                <a href="#contact"
+                    class="text-white px-4 py-2 text-lg font-medium hover:bg-blue-600 rounded">Contact</a>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="lg:hidden bg-blue-800 text-white space-y-4 py-4 px-6 hidden">
+            <a href="#home" class="block text-lg font-medium">Home</a>
+            <a href="#insurance" class="block text-lg font-medium">Insurance</a>
+            <a href="#loans" class="block text-lg font-medium">Loans</a>
+            <a href="#real-estate" class="block text-lg font-medium">Real Estate</a>
+            <a href="#contact" class="block text-lg font-medium">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-24 text-center">
+        <h2 class="text-5xl font-poppins font-bold mb-4">Protecting Your Future, Building Your Dream Home</h2>
+        <p class="text-xl max-w-3xl mx-auto">Providing expert insurance solutions, loan services, and real estate advice
+            to help you secure and build a better tomorrow.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="insurance" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-4xl font-poppins font-semibold text-blue-900 mb-8 text-center">Insurance Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Life Insurance</h4>
+                    <p class="text-gray-700">Protect your family's future with personalized life insurance plans. We
+                        offer whole life, term life, and universal life insurance policies designed to fit your needs.
+                    </p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Home Insurance</h4>
+                    <p class="text-gray-700">Safeguard your home and belongings from unforeseen events. Our home
+                        insurance options provide coverage for property damage, natural disasters, and liability claims.
+                    </p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Business Insurance</h4>
+                    <p class="text-gray-700">Ensure the future of your business with customized insurance packages,
+                        covering everything from property damage to liability and worker’s compensation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="loans" class="py-16">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-4xl font-poppins font-semibold text-blue-900 mb-8 text-center">Loan Services</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Home Loans</h4>
+                    <p class="text-gray-700">Achieve your dream home with competitive home loan rates and flexible
+                        repayment terms. Our mortgage advisors are here to guide you through the process.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Personal Loans</h4>
+                    <p class="text-gray-700">Whether you're consolidating debt or funding a personal project, our
+                        personal loans offer affordable rates and flexible terms tailored to your financial goals.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Business Loans</h4>
+                    <p class="text-gray-700">Grow your business with a variety of loan options, including working
+                        capital loans, equipment financing, and commercial real estate loans, designed for business
+                        expansion.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="real-estate" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-4xl font-poppins font-semibold text-blue-900 mb-8 text-center">Real Estate Advisory</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Property Investment</h4>
+                    <p class="text-gray-700">Maximize your returns with expert property investment advice. We guide you
+                        through market trends, helping you choose properties that align with your investment goals.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Market Analysis</h4>
+                    <p class="text-gray-700">Stay ahead of the market with in-depth analysis and insights. We offer
+                        property value assessments, location evaluations, and trends to make informed real estate
+                        decisions.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-2xl font-poppins font-semibold text-blue-800 mb-4">Property Management</h4>
+                    <p class="text-gray-700">From leasing to maintenance, our property management services ensure your
+                        real estate investments are well-maintained and profitable, providing peace of mind for owners.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-200 py-16">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-3xl font-poppins font-semibold text-blue-900 mb-4">Contact Us</h3>
+                <p>We'd love to hear from you. Reach out for inquiries or consultation!</p>
+                <!-- <p class="mt-4">Email: info@youragency.com</p> -->
+                <p>Phone: +91 8147212488</p>
+            </div>
+            <!-- <div class="bg-white shadow-lg rounded-lg p-6">
+                <h3 class="text-3xl font-poppins font-semibold text-blue-900 mb-4">Get a Free Quote</h3>
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Your Name" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded-lg" required>
+                    <input type="email" placeholder="Your Email" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded-lg" required>
+                    <textarea placeholder="Your Message" class="w-full px-4 py-2 mb-4 border border-gray-300 rounded-lg" required></textarea>
+                    <button type="submit" class="w-full bg-emerald-600 text-white py-3 rounded-lg hover:bg-emerald-500 transition duration-300">Submit</button>
+                </form>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-900 text-white py-6 text-center">
+        <p>&copy; 2024 Your Insurance, Loans & Real Estate Agency. All rights reserved.</p>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
